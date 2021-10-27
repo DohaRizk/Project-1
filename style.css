@@ -1,0 +1,383 @@
+*
+{
+	font-family: Calibri;
+}
+body
+{
+	background-color:#ffcccc;
+}
+/*header*/
+header 
+{
+	background-color: white ;
+	padding:30px;
+	border-top: solid #d9d9d9 30px;
+	border-left: solid #d9d9d9 30px;
+	border-right: solid #d9d9d9 30px;
+}
+header b#first_word
+{
+	font-size: 70px;
+	color:#262626;
+
+}
+header span#second_word
+{
+	font-size: 70px;
+	color:#cc0000;
+}
+/*logo image*/
+header span img.logo
+{
+	float:left;
+	margin-right: 15px;
+}
+header img
+{
+	float:right;
+	margin-right: 400px;
+}
+#main_img
+{
+	width:100%;
+	height: 20%;
+}
+nav
+{
+	background-color:#262626;
+	width:100%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+}
+ nav ul
+{
+	list-style-type: none;
+	overflow: hidden;
+}
+/*for the title*/
+nav ul li#title
+{
+	float :left;
+}
+ nav ul li#title 
+{
+	display: inline-block;
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+	font-size: 20px;
+}
+nav ul li
+{
+	float:left;
+}
+ nav ul li a
+{
+	display: inline-block;
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+	font-size: 20px;
+	border-right:solid white 1px;
+	border-left:solid white 1px;
+}
+nav ul li a:hover
+{
+	background-color: #cc0000;
+	 font-weight: bold;
+}
+nav ul li a:active
+{
+	background-color: #cc0000;
+	 font-weight: bold;
+}
+ nav ul li form#login_form
+{
+	display: inline-block;
+	color:#331e00;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+	font-size: 20px;
+	border-right:solid white 1px;
+	border-left:solid white 1px;
+}
+nav ul li form#login_form #button_login
+{
+	background-color: #331e00;
+	color:#ffd499;
+	font-size: 20;
+	padding:5px;
+	border:solid #331e00 1px;
+}
+nav ul li form#login_form #textbox_login
+{
+	border:solid #331e00 1px;
+}
+/*sign up form*/
+#signup_form
+{
+	border:solid #331e00 1px;
+	margin:50px;
+	padding:30px;
+	width:50%;
+}
+#signup_form #textbox_signup
+{
+	padding:10px;
+	font-size:20px;
+}
+#signup_form #dob
+{
+	font-size: 20px;
+	color: #331e00;
+}
+#signup_form #submit_signup
+{
+	font-size: 30px;
+	padding: 10px;
+	background-color: #ff9600;
+	border:solid #ff9600 1px;
+	color:white;
+}
+#signup_form #submit_signup:hover
+{
+	background-color: #ffab33;
+}
+#signup_div
+{
+	border:solid #262626 5px;
+	margin:50px;
+	padding:30px;
+	width:50%;
+}
+#signup_div #signup_p
+{
+	font-size: 30px;
+	color:#262626;
+}
+#signup_href
+{
+	font-size: 30px;
+	color:red;
+}
+#signup_href:hover
+{
+	color:green;
+}
+/*show.php*/
+div#book_inf
+{
+	border:solid #262626 5px;
+	border-radius: 10px;
+	background-color:#ccccb3;
+	margin:50px;
+}
+h1#book_name
+{
+	color:#262626;
+	font-family: sans-serif;
+	padding: 10px;
+}
+h3#book
+{
+	color:#262626;
+	font-family: sans-serif;
+	padding: 10px;
+}
+h2#book
+{
+	color:#262626;
+	font-family: sans-serif;
+	padding: 10px;
+}
+p#boook_p
+{
+	color:#262626;
+	font-family: serif;
+	padding: 10px;
+}
+a#link_download_book
+{
+	color:red;
+}
+a#link_download_book:hover
+{
+	color:green;
+}
+/*profile.php*/
+ul#book_name
+{
+	background-color:#ff8080;
+	width:40%;
+	list-style-type: none;
+	margin:50px;
+	margin-left: 370px;
+}
+
+ul#book_name li#each_book_name a#each_book_name
+{
+	display: inline-block;
+	color:#262626;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+	font-size: 20px;
+	border:solid #262626 3px;
+	border-radius: 10px;
+	background-color: white;
+}
+ul#book_name li#each_book_name a#each_book_name:hover
+{
+	background-color: #ccccb3;
+}
+/*Add Book Form title*/
+h2#addBook_title
+{
+	color: #331e00;
+
+}
+/*Add book form*/
+#addBook_form
+{
+	border:solid #331e00 3px;
+	border-radius: 10px;
+	margin-left: 380px;
+	margin-top: 50px;
+	padding:30px;
+	width:40%;
+	background-color:  #ccccb3;
+}
+#addBook_form #textbox_addBook
+{
+	padding:10px;
+	font-size:15px;
+	font-weight: bold;
+	background-color: white;
+	box-shadow: 8px 8px 4px #737373;
+}
+#addBook_form input#textbox_addBook
+{
+	width:95.5%;
+}
+#addBook_form #submit_addBook
+{
+	font-size: 20px;
+	padding: 10px;
+	background-color: #cc0000;
+	border:solid #cc0000 1px;
+	color:white;
+	width:30%;
+	font-weight: bold;
+}
+#addBook_form #submit_addBook:hover
+{
+	background-color:#ff1a1a;
+}
+/*home*/
+video
+{
+	margin-left: 230px;
+	margin-top:0px;
+}
+footer
+{
+	background-color:#262626;
+	width:100%;
+	border-radius: 10px;
+	text-align: center;
+	color:white;
+}
+/*contact_us*/
+div#contact
+{
+	background-color: red;
+	border-radius: 10px;
+}
+div#contact h2#contactUs_title
+{
+	margin-left: 530px;
+	margin-top: 10px;
+}
+div#contact_us
+{
+	float:right;
+	margin-right:600px;
+}
+img#contact_img
+{
+	margin-left: 300px;
+}
+div#what
+{
+	background-color: #ccccb3;
+	border:solid white 5px;
+	border-radius: 10px;
+	margin-left:350px;
+	margin-top:0px;
+	margin-bottom: 50px;
+	width:50%;
+	padding:10px;
+}
+div#what h2#what
+{
+	text-align: center;
+	color:red;
+}
+a#what
+{
+	color:red;
+}
+a#what:hover
+{
+	color:green;
+}
+div#aboutUs
+{
+	background-image: url("810696038.jpg");
+	background-color: white;
+	border:solid white 5px;
+	border-radius: 10px;
+	margin:50px;
+	margin-top:0px;
+	font-weight: bold;
+	padding:10px;
+	font-size: 20px;
+	margin-left:350px;
+	margin-top:0px;
+	margin-bottom: 50px;
+	width:50%;
+}
+div#aboutUs h2#aboutUs
+{
+	text-align: center;
+	color:red;
+}
+a.about
+{
+	color:red;
+}
+a.about:hover
+{
+	color:green;
+}
+/*up_arrow img*/
+img#up_arrow
+{
+	float:right;
+	margin-right: 70px;
+}
+a#up_arrow_text
+{
+
+	float:right;
+	margin-right: 0px;
+	color:red;
+}
+a#up_arrow_text:hover
+{
+	color:green;
+}
+
